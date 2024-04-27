@@ -1,0 +1,280 @@
+.firstsec{
+  display: flex;
+  gap: 200px;
+}
+.firstsec img{
+  width: 300px;
+ margin-right: 90px;
+  height: 300px;
+}
+
+
+.firstsec p{
+    text-align: justify;
+    line-height: 1.6;
+    font-style: oblique;
+    margin: 30px;
+    
+}
+.about_content h2{
+    margin: 20px;
+    font-style: italic;
+    font-size: 40px;
+    color: ;
+
+
+}
+.about_content{
+  margin-top: 30px;
+}
+.entry h2 {
+    display: inline;
+ margin: 40px;
+ margin-top: 100px;
+}
+
+.whyus{
+    border-radius: 30px;
+     background: rgb(125, 191, 191);
+    text-align: center;
+        padding: 50px 60px ;
+        margin-top: 40px;
+
+}
+.whyus p{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* CSS code to style the box */
+.box-block {
+  
+        width: 300px;
+        height:300px;
+        background-color:rgb(3, 40, 126);
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none; /* Remove default underline */
+        color:white; /* Text color */
+        font-weight: bold;
+        font-size: 18px;
+        transition: background-color 0.3s;
+        display: flex;
+        flex-direction: column;
+    }
+  
+   
+  
+  .box-block img {
+    width:150px; /* Set image width */
+    height: 150px; /* Set image height */
+  }
+  .box-block h4 {
+    margin-top: 10px; /* Add margin at the top */
+  }
+ /* Changing text on hover for NEET COURSES */
+.box-block:hover:nth-child(1) h4{
+    display: none; /* Hide original text */
+  }
+  .box-block:hover:nth-child(1) img{
+    display: none;
+    
+     /* Hide original text */
+  }
+  .box-block:hover:nth-child(1):after {
+    content: attr(data-content); /* Add new text */
+    display: block; /* Show new text */
+    color: white; /* Text color */
+    font-size: 14px; /* Adjust font size */
+    margin:20px /* Adjust spacing */
+    text-align: justify;
+    
+    
+  }
+
+  .box-block:hover:nth-child(2) h4{
+    display: none; /* Hide original text */
+  }
+  .box-block:hover:nth-child(2) img{
+    display: none;
+    
+     /* Hide original text */
+  }
+  .box-block:hover:nth-child(2):after {
+    content: attr(data-content); /* Add new text */
+    display: block; /* Show new text */
+    color: white; /* Text color */
+    font-size: 14px; /* Adjust font size */
+    margin:20px /* Adjust spacing */
+    text-align: justify;
+    
+    
+  }
+  .box-block:hover:nth-child(3) h4{
+    display: none; /* Hide original text */
+  }
+  .box-block:hover:nth-child(3) img{
+    display: none;
+    
+     /* Hide original text */
+  }
+  .box-block:hover:nth-child(3):after {
+    content: attr(data-content); /* Add new text */
+    display: block; /* Show new text */
+    color: white; /* Text color */
+    font-size: 14px; /* Adjust font size */
+    margin:20px /* Adjust spacing */
+    text-align: justify;
+    
+    
+  }
+  .box-block:hover:nth-child(4) h4{
+    display: none; /* Hide original text */
+  }
+  .box-block:hover:nth-child(4) img{
+    display: none;
+    
+     /* Hide original text */
+  }
+  .box-block:hover:nth-child(4):after {
+    content: attr(data-content); /* Add new text */
+    display: block; /* Show new text */
+    color: white; /* Text color */
+    font-size: 14px; /* Adjust font size */
+    margin:20px /* Adjust spacing */
+    text-align: justify;
+    
+    
+  }
+  .box-block:hover:nth-child(5) h4{
+    display: none; /* Hide original text */
+  }
+  .box-block:hover:nth-child(5) img{
+    display: none;
+    
+     /* Hide original text */
+  }
+  .box-block:hover:nth-child(5):after {
+    content: attr(data-content); /* Add new text */
+    display: block; /* Show new text */
+    color: white; /* Text color */
+    font-size: 14px; /* Adjust font size */
+    margin:20px /* Adjust spacing */
+    text-align: justify;
+    
+    
+  }
+
+  .box-block:hover:nth-child(6) h4{
+    display: none; /* Hide original text */
+  }
+  .box-block:hover:nth-child(6) img{
+    display: none;
+    
+     /* Hide original text */
+  }
+  .box-block:hover:nth-child(6):after {
+    content: attr(data-content); /* Add new text */
+    display: block; /* Show new text */
+    color: white; /* Text color */
+    font-size: 14px; /* Adjust font size */
+    margin:20px /* Adjust spacing */
+    text-align: justify;
+    
+    
+  }
+  .block {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr); /* Create three equal-width columns */
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-evenly;
+  }
+  @media (max-width: 650px) {
+    .firstsec{
+      display: flex;
+      gap: 100px;
+      flex-direction: column;
+    }
+    .firstsec img{
+      margin: 30px;
+    }
+    .entry h2{
+      font-size:20px;
+    }
+    .box-block {
+  
+      width: 150px;
+      height:150px;
+     
+      
+      
+      
+  }
+  .box-block img {
+    width:100px; /* Set image width */
+    height: 100px; /* Set image height */
+  }
+  .box-block h4 {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .block{
+    display: flex;
+    flex-direction: column;
+  }
+  .whyus h2{
+    font-size: 30px;
+  }
+  
+ }
+ /* MEDIA QUERIES */
+ @media (max-width: 650px) {
+  .nav {
+    position: fixed;
+    top: 90px;
+    left: -100%;
+    transform: translateX(-50%);
+    background-color: rgb(19, 22, 26);
+    width: 100%;
+    padding: 10px 0 25px;
+    height:230px;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  .nav__link {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 11px;
+    padding: 7px 17px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .nav__link {
+    color: white;
+    transition: all 0.2s;
+  }
+  
+}
+
+@media (max-width: 360px) {
+  .top-bar__content {
+    font-size: 10px;
+  }
+}
+  
+  

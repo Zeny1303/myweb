@@ -1,0 +1,179 @@
+/*jee classroom courses*/
+/*courses page*/
+.right-box p{
+    padding: 7px;
+    margin-left: 34px;
+    
+}
+.box-course
+{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap: 15px;
+   
+}
+
+.box-course .box-1{
+    box-shadow:  0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #ffffff;
+    text-align: center;
+    padding: 30px 20px ;
+}
+
+
+ .box-1 .btn-34{
+    margin: 30px;
+}
+.box-1 .btn-34 a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: rgb(11, 49, 222);
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+.box-1 .btn-34 a.red{
+    color: azure;
+    background: rgb(21,21,100);
+    transition: .3s;
+}
+.box-1 .btn-34 a.red:hover{
+    color:rgb(255, 249, 249);
+    background: red;
+
+}
+
+
+
+
+ .box-1:hover{
+    box-shadow: 0 10px 15px rgba(16, 124, 70, 0.87);
+    transform: scale(1.02);
+    
+    
+}
+/* jee.html> jee courses */
+.courses-container {
+    background-color: teal;
+    padding: 20px; /* Add padding for better appearance */
+    width: 100%; /* Set width of container */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center the content horizontally */
+    height: 120px;
+    display: flex; /* Use flexbox to center vertically */
+     align-items: center; /* Center vertically */
+      justify-content: space-between;
+  }
+  
+  /* Heading */
+  .courses-container h2 {
+    color: white; /* Set text color to white */
+  }
+  
+  /* JEE links */
+  .jee-links h5 {
+    display: inline; /* Display links inline */
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove text decoration */
+    margin: 0 8px; /* Add margin for spacing */
+  }
+  
+  .jee-links a {
+    color: white; /* Set link color to white */
+    text-decoration: none; /* Remove text decoration */
+  }
+  .jee-links{
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .jee-content{
+    margin: 30px;
+  }
+  .jee-content h4{
+     text-decoration: underline;
+     }
+  .bold{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    }  
+    .jee-divider{
+        display: flex;
+        margin-top: 10px;
+        gap: 300px;
+    }
+
+    .jee-divider p {
+        text-align: justify; /* Justify text for better alignment */
+        line-height: 1.6; /* Set line height to improve readability */
+        margin-bottom: 20px; /* Add margin at the bottom of the paragraph for spacing */
+      }
+      
+    .jee-divider img {
+        display: block; /* Make the image a block element */
+        margin: 0 80px; /* Center the image horizontally */
+        max-width: 100%; /* Ensure the image does not exceed its container width */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 30px;
+      }
+
+    .box-course{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .box-2{
+        border-radius: 3px;
+        
+    }
+    .box-2 p {
+        text-align: justify; /* Justify text for better alignment */
+        line-height: 1.2; /* Set line height to improve readability */
+        margin-bottom: 20px; /* Add margin at the bottom of the paragraph for spacing */
+        color: grey;
+      }
+      .foundation-course p{
+        text-align: ;
+
+      }
+      .box-course2{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .box-course2 .box-1{
+        box-shadow:  0 10px 15px rgba(0,0,0,.2);
+        border-radius: 10px;
+        background: #ffffff;
+        text-align: center;
+        padding: 50px 60px ;
+    }
+
+    @media (max-width: 650px){
+      .box-course{
+        display: flex;
+        flex-direction: column;
+      }
+      .jee-divider img{
+      width: 250px;
+      height: 250px;
+      margin: 40px;
+      }
+      .jee-divider{
+        display: flex;
+        
+        
+        flex-direction: column;
+        gap: 30px;
+    }
+    .box-course2{
+      display: flex;
+      flex-direction: column;
+     gap: 20px;
+      
+  }
+    }
+
+
+
