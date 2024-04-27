@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="contact.css">
+
+  <script defer src="js/home.js"></script>
+
+  <title>WEBsite</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="top-bar">
+      <div class="top-bar__content">
+        <section class="phone">
+          <i class="fa-solid fa-phone icon"></i>
+          <span>1-800-922-0444</span>
+        </section>
+        <section class="email">
+          <i class="fa-solid fa-envelope icon"></i>
+          <span>resolute.edu.ins@gmail.com</span>
+        </section>
+      </div>
+    </div>
+
+    <div class="bottom-bar">
+      <div class="bottom-bar__content">
+        <a href="#" class="logo">
+          <img class="logo__img" src="images/logo1.png" alt="logo">
+          <img class="logo__img" src="images/logoname.png" alt="logo">
+          
+        </a>
+    
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="home.html"><b>Home</b></a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="about.html"><b>About us</b></a>
+            </li>
+            <li class="nav__item">
+              <!-- Courses dropdown menu -->
+              <div class="dropdown">
+                  <a class="nav__link"><b>Courses</b></a>
+                  <div class="dropdown-content">
+                    <a href="jee.html">JEE Course</a>
+                    <a href="foundation.html"> Foundation Course 2</a>
+                  </div>
+              </div>
+          </li>
+            <li class="nav__item">
+              <a class="btn" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+  
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--sliders-->
+
+  <div class="slider">
+		<!-- fade css -->
+		<div class="myslide fade">
+			
+			<img src="images/AUTO BACK FLEX.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			
+			<img src="images/FLEX 4.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			
+			<img src="images/FLEX 6.jpg" style="width: 100%; height: 100%;">
+		</div>
+    <div class="myslide fade">
+			
+			<img src="images/Lift Lower (Front).jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		
+		<div class="myslide fade">
+			
+			<img src="images/slider1.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<!-- /fade css -->
+		
+		<!-- onclick js -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+		<!-- /onclick js -->
+	</div>
+   
+<div class="courses">
+    <h2> <b>Courses </b></h2>
+    <section class="courses-section brightness-adjusted">
+        <div class="content">
+            <h2>Explore Our Courses</h2>
+            <p>Resolute edu institute boasts a team of IITian and nitian who provide you in-depth coverage of JEE Main and Advanced syllabus, focusing on problem-solving techniques and exam strategies.
+            </p>
+            <!-- Your course content goes here -->
+        </div>
+    
+    
+
+    
+        <div class="box-links">
+          <a href="jee.html" class="box">
+              <h3>JEE COURSES</h3>
+          </a>
+          <a href="foundation.html" class="box">
+              <h3>FOUNDATION COURSES</h3>
+          </a>
+          <a href="#" class="box">
+              <h3>NEET COURSES</h3>
+          </a>
+      </div>
+      
+    </section>
+    </div>
+    
+</div>
+ <!--about us-->
+ <hr>
+  <!-- About section -->
+  <section class="about-section">
+    <div class="content">
+        <h2>About Us</h2>
+        <p>
+          <b>Welcome to Resolute edu institute </b><br>
+           Your Gateway to JEE Success!
+          Are you ready to embark on an exhilarating journey towards engineering excellence? At Resolute edu institute , we offer specialized coaching programs meticulously crafted to guide you through the challenging terrain of JEE Main and Advanced exams. 
+          Our integrated courses for 11th and 12th-grade students are designed to equip you with the knowledge, skills, and confidence to conquer the toughest engineering entrance exams in India.
+          
+        </p>
+        <div class="btn-1"><a  class="blue"  href="#"  >read more</a></div>
+    </div>
+</section>
+ <hr>
+ <section class="whyus-section">
+  <div class="content23">
+      <h2>Why Us</h2>
+      <p>
+        
+        <b>1.	Expert Faculty:</b> Learn from a team of seasoned educators who are dedicated to nurturing your potential and guiding you towards academic excellence. Our faculty members are experienced professionals with a passion for teaching and a proven track record of success.  <br>
+      <b>  2.	Study Materials:</b> Comprehensive study materials comprising theory books, question banks, and previous years' papers. Our meticulously designed curriculum covers every aspect of the JEE syllabus, ensuring thorough understanding and mastery of key concepts in Physics, Chemistry, and Mathematics.   <br>
+       <b> 3.	Interactive Learning:</b> Experience engaging and interactive classroom sessions that foster Conceptual lectures, practice sessions, mock tests to enhance problem-solving skills ,time management ,active participation, and critical thinking. Our teaching methodology is tailored to accommodate diverse learning styles and promote holistic development.  <br>
+        <b>4.	Personalized Attention:</b> Receive personalized attention and guidance from our faculty members who are committed to addressing your individual learning needs and ensuring your academic growth. <br>
+      <b>  5.	State-of-the-Art Facilities:</b> Study in a conducive learning environment equipped with modern facilities, including well-equipped classrooms, libraries, and advanced technology-enabled learning resources.  <br>
+	     <b>6.	Additional Resources:</b> Regular doubt resolution sessions, personalized counselling <br>
+
+      
+      </p>
+      <div class="btn-1"><a  class="blue"  href="#"  >read more</a></div>
+  </div>
+</section>
+<hr>
+ <!--facultysection-->
+
+<div class="facultysection">
+    <div class="title-box">
+     <h1 >Meet Our Faculty </h1>
+      
+    </div>
+    <div class="team-row">
+       <div class="profile-box">
+         <img src="images/utpal sir.jpg" alt="Mr.Utpal kumar">
+         <h4>Mr.Utpal kr</h4>
+         <small>Physics faculty</small>
+        
+        <div class="social-box">
+         <i class=" fa fa-brands fa-facebook"></i>
+         <i class=" fa fa-brands fa-instagram"></i>
+         <i class=" fa fa-brands fa-linkedin"></i>
+         <i class=" fa fa-brands fa-twitter"></i>
+         
+        </div>
+        <p>10yrs exprience </p>
+        <p>B.Tech</p>
+        <p> Alumini:- IIT roorkee</p>
+       </div>
+
+       <div class="profile-box">
+         <img src="images/kundansir.jpg" alt="Mr.Utpal kumar">
+         <h4>Mr.Kundan Kumar</h4>
+         <small>Physics faculty</small>
+        
+        <div class="social-box">
+         <i class=" fa fa-brands fa-facebook"></i>
+         <i class=" fa fa-brands fa-instagram"></i>
+         <i class=" fa fa-brands fa-linkedin"></i>
+         <i class=" fa fa-brands fa-twitter"></i>
+         
+        </div>
+        <p>8 yrs exprience </p>
+        <p> B. Tech  </p>
+        <p>Alumini :- NIT Rourkela</p>
+       </div>
+
+       <div class="profile-box">
+         <img src="images/rajkishoresir.jpg" alt="Mr.Utpal kumar">
+         <h4>Mr.Raj Kishor</h4>
+         <small>Chemistry faculty</small>
+        
+        <div class="social-box">
+         <i class=" fa fa-brands fa-facebook"></i>
+         <i class=" fa fa-brands fa-instagram"></i>
+         <i class=" fa fa-brands fa-linkedin"></i>
+         <i class=" fa fa-brands fa-twitter"></i>
+         
+        </div>
+        <p>12yrs exprience </p>
+        <p>M.SC  (worked in Bansal, Unacademy)</p>
+        <p> Alumini :-VBU</p>
+       </div>
+
+       <div class="profile-box">
+         <img src="images/abhijeetsir.jpg" alt="Mr.Utpal kumar">
+         <h4>Mr.Abhijeet Roy</h4>
+         <small>Maths faculty</small>
+        
+        <div class="social-box">
+         <i class=" fa fa-brands fa-facebook"></i>
+         <i class=" fa fa-brands fa-instagram"></i>
+         <i class=" fa fa-brands fa-linkedin"></i>
+         <i class=" fa fa-brands fa-twitter"></i>
+         
+        </div>
+        <p>10yrs exprience </p>
+        <p>B.Tech</p>
+        <p>Alumini :- NIT Trichy</p>
+       </div>
+
+       <div class="profile-box">
+         <img src="images/deeprajsir.jpg" alt="Mr.Utpal kumar">
+         <h4>Mr. Deep Raj</h4>
+         <small>Maths faculty</small>
+        
+        <div class="social-box">
+         <i class=" fa fa-brands fa-facebook"></i>
+         <i class=" fa fa-brands fa-instagram"></i>
+         <i class=" fa fa-brands fa-linkedin"></i>
+         <i class=" fa fa-brands fa-twitter"></i>
+         
+        </div>
+        <p>6yrs exprience </p>
+        <p>B.Stat</p>
+        <p>Alumini :- ISI Kolkata</p>
+       </div>
+
+       
+     </div>
+
+    </div>
+</div>   
+<hr>
+<div class="container-2">
+ 
+ <div class="form-container">
+     <div class="title">
+         <h1>Interested in Us</h1>
+         <p>Provide your details, our team will contact you in a few minutes</p>
+     </div>
+     <form action="#">
+         <div class="user-details">
+             <div class="input-box">
+                 <span class="details">Full Name</span>
+                 <input type="text" placeholder="full name" required>
+             </div>
+             <div class="input-box">
+                 <span class="details">E-mail </span>
+                 <input type="text" placeholder=" email" required>
+             </div>
+             <div class="input-box">
+                 <span class="details">Phone number</span>
+                 <input type="text" placeholder=" phone number" required>
+             </div>
+             <div class="select-box">
+                 <span class="details">Courses</span>
+                 <select required>
+                     <option value="">Select a course</option>
+                     <option value="Foundation batch phase-I">Foundation batch phase-I</option>
+                     <option value="Foundation batch phase-II">Foundation batch phase-II</option>
+                     <option value="Foundation batch phase-III">Foundation batch phase-III</option>
+                     <option value="Engineering batch phase-I">Engineering batch phase-I</option>
+                     <option value="Engineering batch phase-II">Engineering batch phase-II</option>
+                     <option value="Engineering batch phase-III">Engineering batch phase-III</option>
+                     <option value="Medical batch phase-I">Medical batch phase-I</option>
+                     <option value="Medical batch phase-II">Medical batch phase-II</option>
+                     <option value="Medical batch phase-III">Medical batch phase-III</option>
+                 </select>
+             </div>
+         </div>
+         <button type="submit">Submit</button>
+     </form>
+ </div>
+</div>
+</div>
+ <!--footer-->
+ <footer class="footer">
+   <div class="container">
+     <div class="row">
+       <div class="footer-col">
+         <h4>company</h4>
+         <ul>
+           <li><a href="about.html">About us</a></li>
+           <li><a href="courses.html">our courses</a>
+            <li><a href="course.html">JEE(Mains+Advanced)</a></li></li>
+            <li><a href="course.html">NEET</a></li></li>
+            <li><a href="course.html">Foundation</a></li></li>
+           
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>Get help</h4>
+         <ul>
+           <li><a href="#">FAQ</a></li>
+           <li><a href="#">Whatsapp inquiry</a></li>
+           <li><a href="#">call inquiry</a></li>
+          
+         </ul>
+
+       </div>  
+       <div class="footer-col">
+         <h4>follow us</h4>
+         <div class="social-links">
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+       </div>
+
+     </div><br>
+     <hr>
+     <p>Resolute EDU institute © All Rights Reserved</p>
+   </div>
+</footer>
+
+<script>
+ function flipCard() {
+   var card = document.querySelector('.card');
+   card.classList.toggle('flipped');
+ }
+ 
+
+</script>
+<script src="script.js"></script>
+
+
+
+   
+</body>
+
+</html>
