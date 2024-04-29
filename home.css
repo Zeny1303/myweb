@@ -514,24 +514,17 @@ margin: 5px;
 .container{
 	max-width: 1170px;
 	margin:auto;
-  
 }
 .row{
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom:-70px;
 }
 ul{
 	list-style: none;
 }
 .footer{
-	 background-color: #24262b;
+	background-color: #24262b;
     padding: 70px 0;
-    position:fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-	z-index:999;
 }
 .footer-col{
    width: 25%;
@@ -594,11 +587,8 @@ ul{
     margin-top: 20px;
 }
 hr{
-    width: 100%;}
-    body {
-      overflow-x: hidden; /* Hide horizontal scrollbar */
-      overflow-y: auto; /* Allow vertical scrollbar if necessary */
-    }
+    width: 100%;
+}
     
       /* Add media queries for mobile responsiveness */
 @media (max-width: 650px) {
