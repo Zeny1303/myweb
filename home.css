@@ -25,6 +25,7 @@
     background-color:whitesmoke;
     font-family: 'Inter', sans-serif;
     min-height: 400vh;
+	  overflow:hidden;
   }
   
   /* navbar*/
