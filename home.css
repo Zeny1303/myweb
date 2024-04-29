@@ -519,6 +519,7 @@ margin: 5px;
 .row{
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom:-70px;
 }
 ul{
 	list-style: none;
@@ -526,10 +527,11 @@ ul{
 .footer{
 	 background-color: #24262b;
     padding: 70px 0;
-    
+    position:fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+	z-index:999;
 }
 .footer-col{
    width: 25%;
