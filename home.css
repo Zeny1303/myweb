@@ -577,7 +577,7 @@ margin: 5px;
 }
 
  .footer-col form button {
-  background: #fff;
+  background: blue;
   outline: none;
   border: none;
   padding: 10px 15px;
@@ -588,7 +588,7 @@ margin: 5px;
 }
 
 .footer-col form button:hover {
-  background: #cecccc;
+  background: red;
 }
 
 .footer-col .icons {
